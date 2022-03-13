@@ -1,0 +1,734 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="icon" 
+      type="image/png" 
+      href="logo.png" />
+<title>Formulario</title>
+
+<style>
+	
+fieldset{
+
+margin-left:150px;
+margin-right:150px; 
+margin-top:50px;
+box-shadow: -1px 1px 3px black;
+
+background-color:white;
+border-color:black;
+}
+legend{
+font-size:20pt;
+
+}
+body{
+
+
+	background-color:rgb(210,210,210);
+}
+
+</style>
+
+</head>
+<body>
+<form method="get" action="Ex1_L2.php">
+<fieldset>
+ <legend>Ex1 - Média Ponderada </legend>   
+	  
+	<p> <label for="cN1">Trabalho de laborátorio : </label>
+	<input type="number" 
+	name="tN1"
+	id="cN1" 
+	min="0" 
+	max="10" 
+	size="10"
+	maxlength="10"	
+	placeholder="Digite a nota"/></p>
+	
+	<p> <label for="cN2">Avaliação Semanal : </label>
+	<input type="number" 
+	name="tN2" 
+    id="cN2" 
+	min="0" 
+	max="10"
+	size="10"
+	maxlength="10"	
+	placeholder="Digite a nota"/></p>
+	
+	<p> <label for="cN3">Exame Final : </label>
+	<input type="number" 
+	name="tN3" 
+    id="cN3"
+	min="0" 
+	max="10"	
+	size="10"
+	maxlength="10"
+	placeholder="Digite a nota"/></p>
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex2_L2.php">
+<fieldset>
+ <legend>Ex2 - Média Artmética </legend>   
+	  
+	<p> <label for="cN1">Nota 1 : </label><input type="number" 
+	name="tN1"
+	id="cN1" 
+	min="0" 
+	max="10" 
+	size="10"
+	maxlength="10"
+	placeholder="Digite a nota"/></p>
+	
+	<p> <label for="cN2">Nota 2 : </label>
+	<input type="number" 
+	name="tN2" 
+    id="cN2" 
+	min="0"
+	max="10"
+	size="10"
+	maxlength="10"	
+	placeholder="Digite a nota"/></p>
+	
+	<p> <label for="cN3">Nota 3 : </label>
+	<input type="number"
+	name="tN3" 
+    id="cN3"
+	min="0" 
+	max="10"
+	size="10"
+	maxlength="10"	
+	placeholder="Digite a nota"/></p>
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex3_L2.php">
+<fieldset>
+ <legend>Ex3 - Comparação </legend>   
+	  
+	<p> <label for="cN1">Nº 1 : </label>
+	<input type="number" name="tN1"
+	id="cN1" 
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite um número"/></p>
+	
+	<p> <label for="cN2">Nº 2 : </label>
+	<input type="number" 
+	name="tN2" 
+    id="cN2" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite um número"/></p>
+	
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex4_L2.php">
+<fieldset>
+ <legend>Ex4 - Maior </legend>   
+	  
+	<p> <label for="cN1">Nº 1 : </label>
+	<input type="number"
+	name="tN1"
+	id="cN1" 
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite um número"/></p>
+	
+	<p> <label for="cN2">Nº 2 : </label>
+	<input type="number" 
+	name="tN2" 
+    id="cN2" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite um número"/></p>
+		
+	<p> <label for="cN3">Nº 3 : </label>
+	<input type="number" 
+	name="tN3" 
+    id="cN3" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite um número"/></p>
+	
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+
+<form method="get" action="Ex6_L2.php">
+<fieldset>
+ <legend>Ex6 - Par ou Impar </legend>   
+	  
+	<p> <label for="cN">Nº 1: </label>
+	<input type="floatnumber"
+	name="tN"
+	id="cN" 
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite um número"/></p>
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex7_L2.php">
+<fieldset>
+ <legend>Ex7 - Comparação Maior </legend>   
+	  
+	<p> <label for="cA">A : </label>
+	<input type="floatnumber" name="tA"
+	id="cA" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite um número"/></p>
+	
+	<p> <label for="cB">B : </label>
+	<input type="floatnumber" 
+	name="tB" 
+    id="cB" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite um número"/></p>
+		
+	<p> <label for="cC">C : </label>
+	<input type="floatnumber"
+	name="tC"
+	id="cC" 
+	size="10"
+	maxlength="10"
+	placeholder="Digite um número"/></p>
+	
+	<p> <label for="cI">I : </label>
+	<input type="number" 
+	name="tI" 
+    id="cI"
+	size="10" 
+	maxlength="10"	
+	min="1"
+	max="3" 
+	placeholder="Digite um número"/></p>
+	
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex8_L2.php">
+<fieldset>
+ <legend>Ex8 - Soma e Raiz </legend>   
+ 
+ <p><label for="cOp">Opções:</label> 
+  
+  <select name="tOp" id="cOp"> 
+ 
+  <option value="1">Soma</option> 
+  <option value="2" >Raiz Quadrada</option> 
+  
+  </select></p> 
+  
+  <p> <label for="cN1">Nº 1: </label>
+	<input type="number" name="tN1"
+	id="cN1" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite um número"/></p>
+	
+	<p> <label for="cN2">Nº 2: </label>
+	<input type="number" 
+	name="tN2" 
+    id="cN2" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite um número"/></p>
+
+  
+      <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+ 
+ <form method="get" action="Ex9_L2.php">
+<fieldset>
+ <legend>Ex9 - Data e Hora </legend>   
+ <br><br><br>
+
+  
+      <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex10_L2.php">
+<fieldset>
+ <legend>Ex10 - Data Maior </legend>   
+  <p><label for="cD1">Data 1:</label>
+   
+   <input type="date" 
+   name= "tD1" 
+   id="cD1" /></p> 
+	  
+   <p><label for="cD2">Data 2:</label>
+   
+   <input type="date" 
+   name= "tD2" 
+   id="cD2" /></p> 
+
+  
+      <input type="submit" name="tEnviar" value="Enviar"/> 
+</fieldset>
+</form>
+
+<form method="get" action="Ex11_L2.php">
+<fieldset>
+ <legend>Ex11 - Tempo de Jogo  </legend>   
+<p><label for="cHi">Hora Inicial:</label>
+   
+   <input type="number" 
+   name= "tHi" 
+   id="cHi"
+   size="10" 
+   maxlength="10"	
+   min="0"
+   max="24"/></p> 
+	  
+   <p><label for="cMi">Minuto Inicial:</label>
+   
+   <input type="number" 
+   name= "tMi" 
+   id="cMi"
+   size="10" 
+   maxlength="10"	
+   min="0"
+   max="60"/></p> 
+   
+   <p><label for="cHf">Hora Final:</label>
+   
+   <input type="number" 
+   name= "tHf" 
+   id="cHf"
+   size="10" 
+   maxlength="10"	
+   min="0"
+   max="24"/></p>
+   
+   <p><label for="cMf">Minuto Final:</label>
+   
+   <input type="number" 
+   name= "tMf" 
+   id="cMf"
+   size="10" 
+   maxlength="10"	
+   min="0"
+   max="60"/></p>  
+ 
+
+  
+      <input type="submit" name="tEnviar" value="Enviar"/> 
+</fieldset>
+</form>
+ 
+<form method="get" action="Ex12_L2.php">
+<fieldset>
+ <legend>Ex12 - Salario </legend>   
+	  
+	<p> <label for="cCod">Codigo : </label>
+	<input type="number" 
+	name="tCod"
+	id="cCod" 
+	size="10" 
+	min="1"
+	max="5"
+	placeholder="Entre com o código"/></p>
+	
+	<p> <label for="cSal">Salario : </label>
+	<input type="floatnumber" 
+	name="tSal" 
+    id="cSal"
+	size="10" 
+	maxlength="10"
+	placeholder="Digite o salario"/></p>
+   
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex13_L2.php">
+<fieldset>
+ <legend>Ex13 - Salario com opcões</legend>   
+ 
+ Menu de opções: <br />
+ 1. Imposto <br />
+ 2. Novo Salario <br />
+ 3. Classificação <br />
+ 
+  <p> <label for="cOp">Escolha: </label>
+  <br />
+	<input type="number" name="tOp"
+	id="cOp" 
+	size="10" 
+	maxlength="10"
+	min="1";
+	max="3";
+	placeholder="Digite a opção"/></p>
+	
+	<p> <label for="cSal">Salario: </label>
+	<input type="floatnumber" 
+	name="tSal" 
+    id="cSal" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite o Salario"/></p>
+
+  
+      <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex14_L2.php">
+<fieldset>
+ <legend>Ex14 - Outro Salario </legend>   
+	  
+	<p> <label for="cSal">Salario : </label>
+	<input type="floatnumber" 
+	name="tSal" 
+    id="cSal"
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite o salario"/></p>
+   
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex15_L2.php">
+<fieldset>
+ <legend>Ex15 - Salario a receber </legend>   
+	  
+	<p> <label for="cSal">Salario Minimo : </label>
+	<input type="floatnumber" 
+	name="tSal" 
+    id="cSal"
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite o salario"/></p>
+	
+	<p> <label for="cHt">Horas Trabalhadas : </label>
+	<input type="number" 
+	name="tHt" 
+    id="cHt"
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite o salario"/></p>   
+	
+	<p> <label for="cDep">Dependentes : </label>
+	<input type="number" 
+	name="tDep" 
+    id="cDep"
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite o salario"/></p>
+	
+	<p> <label for="cHe">Hora Extra: </label>
+	<input type="number" 
+	name="tHe" 
+    id="cHe"
+	size="10" 
+	maxlength="10" 
+	placeholder="Digite o salario"/></p>
+	
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex16_L2.php">
+<fieldset>
+ <legend>Ex16 - Mercado </legend>   
+	  
+	<p> <label for="cPre">Preço do Produto: : </label>
+	<input type="floatnumber" 
+	name="tPre" 
+    id="cPre"
+	size="10"
+	maxlength="10" 
+	placeholder="Digite o preço"/></p>
+	
+	<p> <label for="cVm">Venda Média Mensal: : </label>
+	<input type="number" 
+	name="tVm" 
+    id="cVm" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite a media"/></p>
+   
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex17_L2.php">
+<fieldset>
+ <legend>Ex17 - Equação de 2º Grau</legend>   
+	  
+	<p> <label for="cA">A : </label>
+	<input type="floatnumber" name="tA"
+	id="cA" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite um número"/></p>
+	
+	<p> <label for="cB">B : </label>
+	<input type="floatnumber" 
+	name="tB" 
+    id="cB" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite um número"/></p>
+		
+	<p> <label for="cC">C : </label>
+	<input type="floatnumber"
+	name="tC"
+	id="cC" 
+	size="10"
+	maxlength="10"
+	placeholder="Digite um número"/></p>
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex18_L2.php">
+<fieldset>
+ <legend>Ex18 - Triangulo </legend>   
+	  
+	<p> <label for="cX">X : </label><input type="number" 
+	name="tX"
+	id="cX" 
+	min="0" 
+	max="10" 
+	size="10"
+	maxlength="10"
+	placeholder="Digite o valor"/></p>
+	
+	<p> <label for="cY">Y : </label>
+	<input type="number" 
+	name="tY" 
+    id="cY" 
+	min="0"
+	max="10"
+	size="10"
+	maxlength="10"	
+	placeholder="Digite o valor"/></p>
+	
+	<p> <label for="cZ">Z : </label>
+	<input type="number"
+	name="tZ" 
+    id="cZ"
+	min="0" 
+	max="10"
+	size="10"
+	maxlength="10"	
+	placeholder="Digite o valor"/></p>
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex19_L2.php">
+<fieldset>
+ <legend>Ex19 - Classificação de pessoas</legend>   
+	  
+	<p> <label for="cH">Altura : </label>
+	<input type="floatnumber" name="tH"
+	id="cH" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite a altura"/></p>
+	
+	<p> <label for="cM">Peso : </label>
+	<input type="floatnumber" 
+	name="tM" 
+    id="cM" 
+	size="10" 
+	maxlength="10"	
+	placeholder="Digite o Peso"/></p>
+		
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex20_L2.php">
+<fieldset>
+ <legend>Ex20 - Produto</legend>   
+	  
+	<p> <label for="cKg">Peso em kg : </label>
+	<input type="floatnumber" name="tKg"
+	id="cKg" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite a altura"/></p>
+	
+	<p> <label for="cOri">Código do País de Origem: </label>
+	<input type="number" 
+	name="tOri" 
+    id="cOri" 
+	size="10" 
+	maxlength="10"	
+	min="1"
+	max="3"
+	placeholder="Digite o CPO"/></p>
+	
+	<p> <label for="cPro">Código do Produto: </label>
+	<input type="number" 
+	name="tPro" 
+    id="cPro" 
+	size="10" 
+	maxlength="10"	
+	min="1"
+	max="10"
+	placeholder="Digite o CP"/></p>
+	
+	
+		
+
+
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex21_L2.php">
+<fieldset>
+ <legend>Ex21 - Carga de Caminhão</legend>   
+	  
+	<p> <label for="cTo">Peso em Toneladas : </label>
+	<input type="floatnumber" name="tTo"
+	id="cTo" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite a altura"/></p>
+	
+	<p> <label for="cOri">Código do Estado de Origem: </label>
+	<input type="number" 
+	name="tOri" 
+    id="cOri" 
+	size="10" 
+	maxlength="10"	
+	min="1"
+	max="5"
+	placeholder="Digite o CEO"/></p>
+	
+	<p> <label for="cCar">Código da Carga: </label>
+	<input type="number" 
+	name="tCar" 
+    id="cCar" 
+	size="10" 
+	maxlength="10"	
+	min="10"
+	max="40"
+	placeholder="Digite o CG"/></p>
+	
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex22_L2.php">
+<fieldset>
+ <legend>Ex22 - Salário e Tempo </legend>   
+	  
+	<p> <label for="cSal">Salario Base : </label>
+	<input type="floatnumber" 
+	name="tSal"
+	id="cSal" 
+	size="10" 
+	maxlength="10"/></p>
+	
+	<p> <label for="cTs">Tempo de Serviço : </label>
+	<input type="number" 
+	name="tTs" 
+    id="cTs" 
+	size="10" 
+	maxlength="10"/></p>	
+	
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+<form method="get" action="Ex22_L2.php">
+<fieldset>
+ <legend>Ex22 - Salário </legend>   
+	  
+	<p> <label for="cSal">Salario Minimo : </label>
+	<input type="floatnumber" 
+	name="tSal"
+	id="cSal" 
+	size="10" 
+	maxlength="10"
+	placeholder="Digite o salario"/></p>
+	
+	 <p><label for="cT">Turno do Trabalho:</label> 
+  
+  <select name="tT" id="cT"> 
+ 
+  <option value="M">Matutino</option> 
+  <option value="V">Vesperino</option> 
+  <option value="N">Noturno</option> 
+   
+  </select></p> 
+   
+  <p><label for="cC">Categoria:</label> 
+  
+  <select name="tC" id="cC"> 
+ 
+  <option value="O">Operario</option> 
+  <option value="G">Gerente</option> 
+  
+  </select></p> 
+	
+	<p> <label for="cTs">Horas Trabalhadas : </label>
+	<input type="number" 
+	name="tTs" 
+    id="cTs" 
+	size="10" 
+	maxlength="10"/></p>	
+	
+	
+
+     <input type="submit" name="tEnviar" value="Enviar"/>
+</fieldset>
+</form>
+
+</body>
+</html>
